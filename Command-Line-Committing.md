@@ -8,5 +8,5 @@ git status
 git merge --no-commit <merge-branch>
 git reset HEAD _/php/globalsConfig.BIG_RED_BUTTON.php
 git checkout -- _/php/globalsConfig.BIG_RED_BUTTON.php
-git commit -m "merged <merge-branch> --> master"
+git commit -m 'merged <merge-branch> --> master'
 ```
