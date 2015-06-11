@@ -1,4 +1,4 @@
-# Welcome to the dinnerlab wiki
+# Welcome to the `dinnerlab` wiki
 ## repository of awesome
 
 ***
