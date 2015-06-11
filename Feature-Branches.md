@@ -1,6 +1,8 @@
 ## Working with Feature Branches
 ### Note: this version was written before we started using pull-requests. We should move into that methodology as we progress with our GitHub skillz.
 
+---
+
 ##### Creating a Feature Branch
 Boop boop boop, notes here.
 
