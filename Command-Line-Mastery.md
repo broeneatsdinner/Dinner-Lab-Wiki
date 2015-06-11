@@ -46,7 +46,7 @@ And try to get rid of B, you have to create an entirely new commit like so:
 ```
 A-----------C'
 ```
-Where C' has a different SHA-1 ID. Likewise, cherry picking a commit from one branch to another basically involves generating a patch, then applying it, thus losing history that way as well.
+Where C' has a different SHA-1 ID than its counterpart C. Likewise, cherry picking a commit from one branch to another basically involves generating a patch, then applying it, thus losing history that way as well.
 
 This changing of commit IDs breaks git's merging functionality among other things (though if used sparingly there are heuristics that will paper over this). More importantly though, it ignores functional dependencies - if C actually used a function defined in B, you'll never know.
 
