@@ -14,6 +14,8 @@ Boop boop boop, notes here.
 
 The above being said, in your GitHub GUI, you know the little area that’s a dropdown to switch branches? Immediately to the left of that is an icon that lets you create a new feature branch. For features, just make sure you're working off of `develop` branch first.
 
+---
+
 ##### Merging a Feature Branch
 So when you're ready to merge your feature branch into the develop branch:
 
