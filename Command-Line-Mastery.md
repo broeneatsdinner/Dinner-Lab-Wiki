@@ -24,17 +24,17 @@ But, sometimes the world isn't perfect, and we gotta pick the cherries.
 
 Cherry picking is: taking a single commit from the middle of one branch and adding it to another:
 ```
-A-----B------C
+A------B------C------D
  \
   \
    D
 ```
 becomes
 ```
-A-----B------C
+A------B------C------D
  \
   \
-   D-----C'
+   D------C'
 ```
 This, of course, can be done with the git cherry-pick command.
 
