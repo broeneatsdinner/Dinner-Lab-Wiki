@@ -34,7 +34,7 @@ becomes
 A-----B------C
  \
   \
-   D-----C
+   D-----C'
 ```
 This, of course, can be done with the git cherry-pick command.
 
@@ -44,7 +44,7 @@ A-----B-----C
 ```
 And try to get rid of B, you have to create an entirely new commit like so:
 ```
-A-----------C
+A-----------C'
 ```
 Where C' has a different SHA-1 ID. Likewise, cherry picking a commit from one branch to another basically involves generating a patch, then applying it, thus losing history that way as well.
 
