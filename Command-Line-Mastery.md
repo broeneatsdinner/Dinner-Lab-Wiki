@@ -38,7 +38,7 @@ A-----B------C
 ```
 This, of course, can be done with the git cherry-pick command.
 
-The problem with this commits is that git considers commits to include all history before them - thus, if you have three commits like so:
+The problem with these commits is that git considers commits to include all history before them - thus, if you have three commits like so:
 ```
 A-----B-----C
 ```
