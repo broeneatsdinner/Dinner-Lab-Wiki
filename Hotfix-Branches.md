@@ -4,7 +4,7 @@
 ---
 
 ##### Creating a Hotfix
-Boop boop boop, notes here.
+Hotfixes are used to fix critical bugs that are small, and alive, on the production (dub1) server.
 
 1. In your GitHub GUI, switch to the `master` branch.
 2. Create a new branch off of `master `, called `hotfix-bug-123` (If you don't know the bug#, call your branch hotfix-something-descriptive)
