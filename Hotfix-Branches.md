@@ -15,6 +15,6 @@ Hotfixes are used to fix critical bugs that are small, and alive, on the product
 6. If OK'd, merge your hotfix branch into `develop`
 7. Delete your hotfix branch
 
-The point of this is to get your hotfix into master and onto the dub1 server as fast as possible. To prevent the bug from exposing itself (eww) in the future, your hotfix must be merged into _both_ the `master` branch and also the `develop` branch once approved.
+The point of this is to get your hotfix into master and onto the dub1 server as fast as possible. To prevent the bug from exposing itself (eww) in the future, your hotfix must be merged into _both_ the `master` branch and also the `develop` branch, once approved.
 
 The above being said, in your GitHub GUI, you know the little area that’s a dropdown to switch branches? Immediately to the left of that is an icon that lets you create a new branch. For hotfixes, just make sure you're working off of `master` branch first.
