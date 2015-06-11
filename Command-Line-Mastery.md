@@ -27,14 +27,14 @@ Cherry picking is: taking a single commit from the middle of one branch and addi
 A-----B-----C-----D
  \
   \
-   D
+   E
 ```
 becomes
 ```
 A-----B-----C-----D
  \
   \
-   D-----C'
+   E-----C'
 ```
 This, of course, can be done with the git cherry-pick command.
 
