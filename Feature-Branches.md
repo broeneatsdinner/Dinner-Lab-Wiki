@@ -4,8 +4,8 @@
 Boop boop boop, notes here.
 
 1. In your GitHub GUI, switch to the `develop` branch.
-2. Create a new branch off of `develop`, called `some-cool-feature`
-3. Work on that feature, and when it’s done, merge that feature back into `develop`
+2. Create a new branch off of `develop`, called `your-feature-branch` (you choose!)
+3. Work on that feature, and when it’s done, merge `your-feature-branch` back into `develop`
 4. Sync your local `develop` branch with the origin `develop`
 4. Pull `develop` onto the **dev1** server
 5. Test your feature (or get your feature tested) on dev1 @ dev1.dinnerlab.com
@@ -14,7 +14,7 @@ Boop boop boop, notes here.
 
 The above being said, in your GitHub GUI, you know the little area that’s a dropdown to switch branches? Immediately to the left of that is an icon that lets you create a new feature branch. For features, just make sure you're working off of `develop` branch first.
 
-##### Creating a Feature Branch
+##### Merging a Feature Branch
 So when you're ready to merge your feature branch into the develop branch:
 
 1. In the GitHub GUI, switch to `develop` branch
