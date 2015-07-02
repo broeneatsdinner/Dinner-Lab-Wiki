@@ -5,6 +5,8 @@
 
 - [Sublime Text 3](http://www.sublimetext.com/3)
 
+- [Sublime Text 3 Package Control](https://packagecontrol.io/installation)
+
 - [GitHub GUI for Mac](https://mac.github.com)
 
 - GitHub command line tools  
