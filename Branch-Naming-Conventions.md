@@ -11,7 +11,7 @@ used for specific feature work, branches from and merges back into develop
 quickly fix the master branch, merged into master and then into develop
 
 **Release** `release-`
-branched off of develop and merged into master every tuesday
+branched off of develop and merged into master every Tuesday at 10:00 central time. If bugfixes that are reported on the `release-` branch take place, they're branched from `release-` and merged back into `release-`. `release-` is then merged into master, and back into develop.
 
 ---
 
