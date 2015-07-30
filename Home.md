@@ -1,4 +1,4 @@
-# **Welcome to the AIMSICD wiki!**
+# **Welcome to the Dinner Lab wiki!**
 
 ![AIMSICD-Banner](https://spideroak.com/share/IFEU2U2JINCA/GitHub/home/SecUpwN/SpiderOak/PROMOTION/AIMSICD-Banner_Small.png)
 
