@@ -1,5 +1,6 @@
 ##### Variables
-###### These are encapsulated by curly braces {} and are replaced with equivalent $.
+
+These are encapsulated by curly braces {} and are replaced with equivalent $.
 
 | Email Variable | PHP Variable | Notes |
 | ------ | ------ | ------ |
