@@ -1,14 +1,13 @@
-/*
-Title: Email Variables
-*/
-
-Boom boom boom, let me hear you say 'way-o'.
-
 ##### Variables
 ###### These are encapsulated by curly braces {} and are replaced with equivalent $.
 
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
 | Email Variable | PHP Variable | Notes |
-| ------ | ---------- |
+| ------ | ------ | ------ |
 | `{cityID}`           | `$cityID` | |
 | `{cityDisplayName}`  | `$cityDisplayName` | |
 | `{referrerKickback}` | `$referrerKickback` | |
