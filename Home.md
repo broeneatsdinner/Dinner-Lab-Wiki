@@ -1,10 +1,7 @@
-# Welcome to the `dinnerlab` wiki
-## repository of awesome
+# **Welcome to the AIMSICD wiki!**
 
-***
+![AIMSICD-Banner](https://spideroak.com/share/IFEU2U2JINCA/GitHub/home/SecUpwN/SpiderOak/PROMOTION/AIMSICD-Banner_Small.png)
 
-### Introduction
+**Please use the sidebar on the right to navigate through this WIKI.**
 
-This all started out fine.
-
-To begin your navigation of this tiny little repository of knowledge, tap on a 'Page', seen at your right.
+The Dinner Lab wiki is intended to clarify developer standards and the meaning behind classes, global functions, and available objects.
