@@ -7,12 +7,11 @@
 * [General Overview](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/wiki/General-Overview)
 * [Technical Overview](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/wiki/Technical-Overview)
 
-**Getting started**
-* [Building](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/wiki/Building)
-* [Requirements](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/wiki/Requirements)
-* [Installation](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/wiki/Installation)
-* [Permissions](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/wiki/Permissions)
-* [Status Icons](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/wiki/Status-Icons)
+**Branching**
+* [[Branch Naming Conventions]]
+* [[Feature Branches]]
+* [[Hotfix Branches]]
+* [[References to Branching Structure]]
 
 **Developers**
 * [Development Status](https://github.com/SecUpwN/Android-IMSI-Catcher-Detector/wiki/Development-Status)
