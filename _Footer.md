@@ -1,1 +1,1 @@
-**Questions or need help?**  [Get in touch][[Contact]], [[Contact]] [Get in touch[Contact]]create a pull request, or [visit our site](https://dinnerlab.com).
+**Questions or need help?**  [Get in touch](Contact), [[Get in touch|Contact]] create a pull request, or [visit our site](https://dinnerlab.com).
