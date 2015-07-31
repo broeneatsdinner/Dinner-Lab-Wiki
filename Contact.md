@@ -8,7 +8,7 @@ Our international team is changing from time to time and we'd like to avoid havi
 |[ewharton](https://github.com/ewharton)                         | United States |      Active      |
 |[bodonnell-dinnerlab](https://github.com/bodonnell-dinnerlab)   | United States |      Active      |
 |[sahenndl](https://github.com/sahenndl)                         | United States |      Active      |
-|[hyanuar](https://github.com/hyanuar)                           | United States |      Active      |
-|[gprasetia](https://github.com/gprasetia)                       | United States |      Active      |
+|[hyanuar](https://github.com/hyanuar)                           | Indonesia     |      Active      |
+|[gprasetia](https://github.com/gprasetia)                       | Indonesia     |      Active      |
 |[riannabennett](https://github.com/riannabennett)               | United States |      Active      |
 |[rwbayer](https://github.com/rwbayer)                           | United States |      Active      |
