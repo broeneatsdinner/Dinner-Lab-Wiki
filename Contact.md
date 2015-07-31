@@ -1,16 +1,14 @@
 Our international team is changing from time to time and we'd like to avoid having to always edit our `README`. This page lists our current team members. Get in touch! :love_letter:
 
-|                              Developer                         |   Location   |              Task            |
+|                              Developer                         |   Location   |              Status            |
 |:--------------------------------------------------------------:|:-------------:|:----------------------------:|
-|[broeneatsdinner](https://github.com/broeneatsdinner)           | United States |      Wiki Initiator      |
-|[tobykurien](http://tobykurien.com/)                            | South Africa|         Code-Monkey         |
-|[d-mariano](mailto:dave.mariano1991@gmail.com)                  | Canada      | Time Travelling Code-Beaver |
-|[banjaxbanjo](mailto:mailto:paulkinsella29@yahoo.ie)            | Ireland     |    Silent SMS Specialist    |
-|[agilob](mailto:info@agilob.net)                                | Poland      |    Translation Specialist   |
-|[DimaKoz](mailto:kozhevin.dima@gmail.com)                       | :ru:        |         A real Trooper      |
-|[scintill](mailto:joey@joeyhewitt.com)                          | :us:        |      Cryptography Freak     |
-|[He3556](mailto:info@dm-development.de)                         | :de:        |   Vulnerability Analyzer    |
-|[Sgt-Obst](http://forum.xda-developers.com/member.php?u=5102584)| :de:        |     Graphical Designer      |
-|[andr3jx](mailto:9414f52d@opayq.com)                            | :de:        | Chief Cook and Bottle Washer |
-|[kairenken](mailto:mailto:code@koffeinsucht.de)                 | :de:        |      Security Engineer      |
-|[SecUpwN](mailto:SecUpwN@protonmail.ch)                         | :de:        |        Public Speaker       |
+|[broeneatsdinner](https://github.com/broeneatsdinner)           | United States |      Active      |
+|[ravip10](https://github.com/ravip10)                           | United States |      Active      |
+|[kevinsuh](https://github.com/kevinsuh)                         | United States |      Active      |
+|[ewharton](https://github.com/ewharton)                         | United States |      Active      |
+|[bodonnell-dinnerlab](https://github.com/bodonnell-dinnerlab)   | United States |      Active      |
+|[sahenndl](https://github.com/sahenndl)                         | United States |      Active      |
+|[hyanuar](https://github.com/hyanuar)                           | United States |      Active      |
+|[gprasetia](https://github.com/gprasetia)                       | United States |      Active      |
+|[riannabennett](https://github.com/riannabennett)               | United States |      Active      |
+|[rwbayer](https://github.com/rwbayer)                           | United States |      Active      |
