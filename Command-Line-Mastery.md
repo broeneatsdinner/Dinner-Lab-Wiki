@@ -13,8 +13,32 @@ git commit -m 'merged <merge-branch> --> master'
 
 ---
 
+##### Tagging a version number onto `master`.
+
+###### Listing Tags
+Listing the available tags in Git is straightforward. Just type `git tag`:
+```
+git checkout master
+git tag
+```
+This command lists the tags in alphabetical order; the order in which they appear has no real importance.
+
+###### Creating Tags
+In the following example, the version number is `2.2` and the codename is `New Durham Tadpole`
+```
+git tag -a v2.2 -m 'New Durham Tadpole'
+```
+
+###### Pushing Tags
+By default, the git push command doesn't transfer tags to remote servers. You will have to explicitly push tags to a shared server after you have created them. This process is just like sharing remote branches – you can run git push origin [tagname].
+```
+git push origin v2.2
+```
+
+---
+
 ##### How to `cherry-pick`
-Even though it has a cool fucking name, it's best practice to not cherry-pick. This is because a proper merge of a feature branch preserves the HEAD history. With that, we can see where in time a feature branch merge took place, inspect it, roll it back, and ask for a pull request in the first place.
+Even though it has a cool name, it's best practice to not cherry-pick. This is because a proper merge of a feature branch preserves the HEAD history. With that, we can see where in time a feature branch merge took place, inspect it, roll it back, and ask for a pull request in the first place.
 
 But, sometimes the world isn't perfect, and we gotta pick the cherries.
 
