@@ -7,4 +7,4 @@ Reason being:
 Renaming classes:
 Add ‘Deprecated’:
 - filenames `class.Tickets.php` would become `class.TicketsDeprecated.php`
-- class name it would be called `class TicketsDeprecated {}`
+- class name would be called `class TicketsDeprecated {}`
