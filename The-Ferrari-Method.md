@@ -6,5 +6,5 @@ Reason being:
 
 Renaming classes:
 Add ‘Deprecated’:
-- filenames `class.Tickets.php` would become `class.TicketsDeprecated.php`
-- class name would be called `class TicketsDeprecated {}`
+- **filenames:** `class.Tickets.php` would become `class.TicketsDeprecated.php`
+- **class names:** would be called `class TicketsDeprecated {}`
