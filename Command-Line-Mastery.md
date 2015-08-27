@@ -37,7 +37,7 @@ git push origin v2.2
 
 ---
 
-##### How to get a file from another branch
+##### How to get a file from another branch.
 It's possible to take a single file it its current state from another branch and smack it onto your branch.
 
 ```
