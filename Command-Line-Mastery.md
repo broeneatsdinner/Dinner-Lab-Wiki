@@ -37,6 +37,19 @@ git push origin v2.2
 
 ---
 
+##### How to get a file from another branch
+It's possible to take a single file it its current state from another branch and smack it onto your branch.
+
+```
+git checkout develop              # first get back to develop
+git checkout experiment -- app.js # then copy the version of app.js 
+                                  # from branch "experiment"
+```
+
+See also [how to undo changes of one file](http://stackoverflow.com/questions/692246/undo-working-copy-modifications-of-one-file-in-git)?
+
+---
+
 ##### How to `cherry-pick`
 Even though it has a cool name, it's best practice to not cherry-pick. This is because a proper merge of a feature branch preserves the HEAD history. With that, we can see where in time a feature branch merge took place, inspect it, roll it back, and ask for a pull request in the first place.
 
