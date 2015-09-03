@@ -26,9 +26,14 @@ dinnerlab@development:~$
 ```
 Note that directories like `dev1` and `dev1logs` are symbolic links to `/home/dinnerlab/domains/dev1.dinnerlab.com/public_html/` and `/home/dinnerlab/domains/dev1.dinnerlab.com/logs/` respectively, and can be used as shortcuts to get to the HTML document root and logs directories for a particular domain quickly.
 
-###### Pulling to dev1.dinnerlab.com
-Once you've switched to the `dinnerlab` user, you can enter the HTML document root for `dev1.dinnerlab.com` using the symbolic link and then run `git pull` like this:
+---
+
+##### Pulling to dev1.dinnerlab.com
+Once you've logged in, and switched to the `dinnerlab` user, you can enter the HTML document root for `dev1.dinnerlab.com` using the symbolic link and then run `git pull` like this:
 ```
+dinnerlab@development:~$ cd
+dinnerlab@development:~$ pwd
+/home/dinnerlab
 dinnerlab@development:~$ cd dev1
 dinnerlab@development:~/dev1$ git pull
 remote: Counting objects: 465, done.
@@ -47,26 +52,42 @@ Merge made by the 'recursive' strategy.
 dinnerlab@development:~/dev1$
 ```
 
+Any changes that have been made to the `develop` branch will now be live at `dev1.dinnerlab.com`
+
 ---
 
-##### Tagging a version number onto `master`.
+##### Pulling to release1.dinnerlab.com
+Once you've logged in, and switched to the `dinnerlab` user, you can enter the HTML document root for `release1.dinnerlab.com` using the symbolic link and then run `git pull` like this:
+```
+dinnerlab@development:~$ cd
+dinnerlab@development:~$ pwd
+/home/dinnerlab
+dinnerlab@development:~$ cd release1
+dinnerlab@development:~/release1$ git pull
+remote: Counting objects: 39, done.
+remote: Compressing objects: 100% (39/39), done.
+remote: Total 39 (delta 14), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (39/39), done.
+From github.com:dinnerlab/dinnerlab
+   9fdbb69..8057bb3  feature-ferrari -> origin/feature-ferrari
+Already up-to-date.
+dinnerlab@development:~/release1$
+```
 
-###### Listing Tags
-Listing the available tags in Git is straightforward. Just type `git tag`:
-```
-git checkout master
-git tag
-```
-This command lists the tags in alphabetical order; the order in which they appear has no real importance.
+Any changes that have been made to the `release-[x]` branch will now be live at `release1.dinnerlab.com`
 
-###### Creating Tags
-In the following example, the version number is `2.2` and the codename is `New Durham Tadpole`
+---
+
+##### Pulling to ferrari1.dinnerlab.com
+Once you've logged in, and switched to the `dinnerlab` user, you can enter the HTML document root for `ferrari1.dinnerlab.com` using the symbolic link and then run `git pull` like this:
 ```
-git tag -a v2.2 -m 'New Durham Tadpole'
+dinnerlab@development:~$ cd
+dinnerlab@development:~$ pwd
+/home/dinnerlab
+dinnerlab@development:~$ cd ferrari1
+dinnerlab@development:~/ferrari1$ git pull
+Already up-to-date.
+dinnerlab@development:~/ferrari1$
 ```
 
-###### Pushing Tags
-By default, the git push command doesn't transfer tags to remote servers. You will have to explicitly push tags to a shared server after you have created them. This process is just like sharing remote branches – you can run git push origin [tagname].
-```
-git push origin v2.2
-```
+Any changes that have been made to the `ferrari-[x]` branch will now be live at `ferrari1.dinnerlab.com`
