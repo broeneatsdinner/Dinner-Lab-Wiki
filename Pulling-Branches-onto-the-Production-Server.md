@@ -1,16 +1,16 @@
-#### Pulling `develop` or `release-[x]` or `ferrari-[x]` onto the development server.
+#### Pulling `master` onto the production server.
 
 ##### First things first.
-The `dev1.dinnerlab.com`, `release1.dinnerlab.com` and `ferrari1.dinnerlab.com` domains all reside on the same server.
+The `dinnerlab.com` domain resides on its own server.
 
-The server has an IP address of `23.92.31.20`.
+The server has an IP address of `45.56.122.231`.
 
 In order to log in to this server, you can SSH into it with your username (usually your first name), and your password. If you forget your first name (which your mother gave to you), you're out of luck. But, if you forget your password, you can contact Broen in order to reset it.
 
 Once you have logged in, the first thing you need to do is "switch" to the `dinnerlab` user. That way, you can pull the various branches onto the server by using the `dinnerlab` user, which has SSH keypair authentication between the server and the GitHub repository itself. This is done by:
 ```
-broen@development:~$ switch
-dinnerlab@development:~$ whoami
+broen@web1:~$ switch
+dinnerlab@web1:~$ whoami
 dinnerlab
 ```
 Note that running the `switch` command may ask for a password, and if it does, the password is your password that you use to SSH into the system with your username (not a shared password that's used for the `dinnerlab` user). Once you're the `dinnerlab` user (and you can verify that you're the `dinnerlab` user by typing `whoami`), the directory structure looks like this:
