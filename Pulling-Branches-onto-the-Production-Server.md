@@ -47,4 +47,4 @@ Already up-to-date.
 dinnerlab@web1:~/public_html$
 ```
 
-Any changes that have been made to the `develop` branch will now be live at `dev1.dinnerlab.com`
+Any changes that have been made to the `master` branch will now be live at `dinnerlab.com`
