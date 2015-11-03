@@ -7,7 +7,7 @@
 
 - [Sublime Text 3 Package Control](https://packagecontrol.io/installation)
 
-- [GitHub GUI for Mac](https://mac.github.com)
+- [GitHub Desktop (GUI) for Mac](https://desktop.github.com)
 
 - GitHub command line tools  
 _can be installed using the GitHub GUI_
