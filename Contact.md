@@ -15,8 +15,8 @@ Our international team is changing from time to time and we'd like to avoid havi
 #### Offshore Team
 |                              Developer                         |   Location    |      Status      |
 |:--------------------------------------------------------------:|:-------------:|:----------------:|
-|[hyanuar](https://github.com/hyanuar)                           | Indonesia     |      Active      |
 |[gprasetia](https://github.com/gprasetia)                       | Indonesia     |      Active      |
+|[hyanuar](https://github.com/hyanuar)                           | Indonesia     |      Active      |
 
 #### Inactive 
 |                              Developer                         |   Location    |      Status      |
