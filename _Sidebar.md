@@ -15,3 +15,4 @@
 
 **Developers**
 * [Contact Information](https://github.com/dinnerlab/dinnerlab/wiki/Contact)
+* [Software to Install](https://github.com/dinnerlab/dinnerlab/wiki/Software-to-Install)
