@@ -13,3 +13,8 @@ The Dinner Lab wiki is intended to clarify developer standards and the meaning b
 ██. ██ ▐█▌██▐█▌██▐█▌▐█▄▄▌▐█•█▌    ▐█▌▐▌▐█ ▪▐▌██▄▪▐█
 ▀▀▀▀▀• ▀▀▀▀▀ █▪▀▀ █▪ ▀▀▀ .▀  ▀    .▀▀▀  ▀  ▀ ·▀▀▀▀ 
 ```
+
+Dinner Lab in binary:
+```
+01000100 01101001 01101110 01101110 01100101 01110010 00100000 01001100 01100001 01100010
+```
