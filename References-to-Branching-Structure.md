@@ -1,1 +1,1 @@
-http://nvie.com/posts/a-successful-git-branching-model/
+External Link: <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">Vincent Driessen: A successful Git branching model</a>
