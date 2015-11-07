@@ -1,6 +1,6 @@
 ## Working with Feature Branches
 
-When a new project is ready to be kicked off, it all begins with a branch -- a branch off of `develop`, that is!
+When a new project is ready to be kicked off, it all begins with a branch — a branch off of `develop`, that is!
 
 ---
 
