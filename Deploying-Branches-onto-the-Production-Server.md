@@ -1,4 +1,4 @@
-#### Pulling `master` onto the production server.
+#### Deploying `master` onto the production server.
 
 ##### First things first.
 The `dinnerlab.com` domain resides on its own server.
