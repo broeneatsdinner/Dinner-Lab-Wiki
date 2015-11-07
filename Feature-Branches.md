@@ -1,5 +1,6 @@
 ## Working with Feature Branches
-### Note: this version was written before we started using pull-requests. We should move into that methodology as we progress with our GitHub skillz.
+
+When a new project is ready to be kicked off, it all begins with a branch -- a branch off of `develop`, that is!
 
 ---
 
