@@ -1,7 +1,7 @@
 #### Deploying `develop` or `release-[x]` or `ferrari-[x]` onto the development server.
 
 ##### First things first.
-The `dev1.dinnerlab.com`, `release1.dinnerlab.com` and `ferrari1.dinnerlab.com` domains all reside on the same server.
+The `dev1.dinnerlab.com` and `release1.dinnerlab.com` domains both reside on the same server.
 
 The server has an IP address of `23.92.31.20`.
 
