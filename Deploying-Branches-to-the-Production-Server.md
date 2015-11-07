@@ -25,7 +25,7 @@ Note that directories like `public_html` are symbolic links to `/home/dinnerlab/
 
 ---
 
-##### Pulling to dinnerlab.com
+##### Deploying to dinnerlab.com
 Once you've logged in, and switched to the `dinnerlab` user, you can enter the HTML document root for `dinnerlab.com` using the symbolic link and then run `git pull` like this:
 ```
 dinnerlab@web1:~$ cd
