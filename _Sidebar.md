@@ -7,8 +7,8 @@
 * [[Branch Naming Conventions]]
 * [[Feature Branches]]
 * [[Hotfix Branches]]
-* [[Deploying Branches onto the Development Server]]
-* [[Deploying Branches onto the Production Server]]
+* [[Deploying Branches to the Development Server]]
+* [[Deploying Branches to the Production Server]]
 * [[References to Branching Structure]]
 
 **Command Line Guide**
