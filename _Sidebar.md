@@ -6,6 +6,7 @@
 **Branching**
 * [[Branch Naming Conventions]]
 * [[Feature Branches]]
+* [[Bug Branches]]
 * [[Hotfix Branches]]
 * [[References to Branching Structure]]
 
