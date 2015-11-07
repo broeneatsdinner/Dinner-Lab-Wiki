@@ -2,14 +2,15 @@
 
 When a bug gets reported by QA, it means something has been checked on `release1.dinnerlab.com` and it did not function as expected. QA logs that bug in JIRA, and it is assigned a bug number.
 
+If you're up to the task at hand, and are filled with pride at earning gold stars, you can create a `bug-*` branch, come to the rescue, and show off your bug smashing skillz.
+
 ---
 
-##### Creating a Feature Branch
-Boop boop boop, notes here.
+##### Creating a Bug Branch
 
-1. In your GitHub GUI, switch to the `develop` branch.
-2. Create a new branch off of `develop`, called `your-feature-branch` (you choose!)
-3. Work on that feature, and when it’s done, merge `your-feature-branch` back into `develop`
+1. In your GitHub GUI, switch to the `release` branch.
+2. Create a new branch off of `release `, called `bug-[bug name]` (for example, if the bug is UT-380, then `bug-ut-380` works great)
+3. Work on that bug, and when it's done, merge `your-feature-branch` back into `develop`
 4. Sync your local `develop` branch with the origin `develop`
 4. Pull `develop` onto the **dev1** server
 5. Test your feature (or get your feature tested) on dev1 @ dev1.dinnerlab.com
