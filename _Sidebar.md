@@ -1,7 +1,7 @@
 **Sharpening Stone for your Mind && Computer Skills**
 * [[Getting Started]]
   * [[Installation|getting-started#installation]]
-  * [[Development Environment|getting-started#development-environment]]
+  * [[Application Environment|getting-started#application-environment]]
 
 **Branching**
 * [[Branch Naming Conventions]]
