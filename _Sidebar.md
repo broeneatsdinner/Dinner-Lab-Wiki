@@ -1,4 +1,4 @@
-**Sharpening Stone for your Mind**
+**Sharpening Stone for your Mind && Computer Skills**
 * [[Getting Started]]
   * [[Installation|getting-started#installation]]
   * [[Set-up|getting-started#set-up]]
