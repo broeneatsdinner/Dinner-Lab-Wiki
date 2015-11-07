@@ -6,8 +6,10 @@
 
 The Dinner Lab wiki is intended to clarify developer standards and the meaning behind classes, global functions, and available objects.
 
+```
 ·▄▄▄▄  ▪   ▐ ▄  ▐ ▄ ▄▄▄ .▄▄▄      ▄▄▌   ▄▄▄· ▄▄▄▄· 
 ██▪ ██ ██ •█▌▐█•█▌▐█▀▄.▀·▀▄ █·    ██•  ▐█ ▀█ ▐█ ▀█▪
 ▐█· ▐█▌▐█·▐█▐▐▌▐█▐▐▌▐▀▀▪▄▐▀▀▄     ██▪  ▄█▀▀█ ▐█▀▀█▄
 ██. ██ ▐█▌██▐█▌██▐█▌▐█▄▄▌▐█•█▌    ▐█▌▐▌▐█ ▪▐▌██▄▪▐█
 ▀▀▀▀▀• ▀▀▀▀▀ █▪▀▀ █▪ ▀▀▀ .▀  ▀    .▀▀▀  ▀  ▀ ·▀▀▀▀ 
+```
