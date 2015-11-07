@@ -1,6 +1,6 @@
 ## Working with Bug Branches
 
-When a bug gets reported by QA, it means something has been checked on `release1.dinnerlab.com` that is not performed as it is intended to perform. QA logs that bug in JIRA, and it is assigned a bug number.
+When a bug gets reported by QA, it means something has been checked on `release1.dinnerlab.com` and it did not function as expected. QA logs that bug in JIRA, and it is assigned a bug number.
 
 ---
 
