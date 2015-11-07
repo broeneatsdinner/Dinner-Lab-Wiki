@@ -1,4 +1,4 @@
-**Project Information**
+**Sharpening Stone for your Mind**
 * [[Getting Started]]
   * [[Installation|getting-started#installation]]
   * [[Set-up|getting-started#set-up]]
@@ -7,8 +7,8 @@
 * [[Branch Naming Conventions]]
 * [[Feature Branches]]
 * [[Hotfix Branches]]
-* [[Pulling Branches onto the Development Server]]
-* [[Pulling Branches onto the Production Server]]
+* [[Deploying Branches onto the Development Server]]
+* [[Deploying Branches onto the Production Server]]
 * [[References to Branching Structure]]
 
 **Command Line Guide**
