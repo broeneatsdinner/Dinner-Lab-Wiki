@@ -11,18 +11,16 @@
 * [[Pulling Branches onto the Development Server]]
 * [[Pulling Branches onto the Production Server]]
 
-**Developers**
-* [[Contact Information]]
-* [[Software to Install]]
-
 **Command Line Guide**
 * [[Command Line Mastery]]
-
-**Dynamic Emails**
-* [[Email Variables]]
 
 **Testing**
 * [[Stripe Test Accounts]]
 
 **In the Ether**
+* [[Email Variables]]
 * [[The Ferrari Method]]
+
+**Developers**
+* [[Contact Information]]
+* [[Software to Install]]
