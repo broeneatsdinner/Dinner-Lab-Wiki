@@ -7,9 +7,9 @@
 * [[Branch Naming Conventions]]
 * [[Feature Branches]]
 * [[Hotfix Branches]]
-* [[References to Branching Structure]]
 * [[Pulling Branches onto the Development Server]]
 * [[Pulling Branches onto the Production Server]]
+* [[References to Branching Structure]]
 
 **Command Line Guide**
 * [[Command Line Mastery]]
