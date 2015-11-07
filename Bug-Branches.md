@@ -9,8 +9,8 @@ If you're up to the task at hand, and are filled with pride at earning gold star
 ##### Creating a Bug Branch
 
 1. In your GitHub GUI, switch to the `release` branch.
-2. Create a new branch off of `release `, called `bug-[bug name]` (for example, if the bug is UT-380, then `bug-ut-380` works great)
-3. Work on that bug, and when it's done, merge `your-feature-branch` back into `develop`
+2. Create a new branch off of `release `, called `bug-[bug number]` (for example, if the bug is UT-380, then `bug-ut-380` works great)
+3. Work on that bug, and when it's done, merge `bug-[bug number]` back into `develop`
 4. Sync your local `develop` branch with the origin `develop`
 4. Pull `develop` onto the **dev1** server
 5. Test your feature (or get your feature tested) on dev1 @ dev1.dinnerlab.com
