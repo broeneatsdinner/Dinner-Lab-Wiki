@@ -58,7 +58,7 @@ Any changes that have been made to the `develop` branch will now be live at `dev
 
 ---
 
-##### Pulling to release1.dinnerlab.com
+##### Deploying to release1.dinnerlab.com
 Once you've logged in, and switched to the `dinnerlab` user, you can enter the HTML document root for `release1.dinnerlab.com` using the symbolic link and then run `git pull` like this:
 ```
 dinnerlab@development:~$ cd
@@ -77,19 +77,3 @@ dinnerlab@development:~/release1$
 ```
 
 Any changes that have been made to the `release-[x]` branch will now be live at `release1.dinnerlab.com`
-
----
-
-##### Pulling to ferrari1.dinnerlab.com
-Once you've logged in, and switched to the `dinnerlab` user, you can enter the HTML document root for `ferrari1.dinnerlab.com` using the symbolic link and then run `git pull` like this:
-```
-dinnerlab@development:~$ cd
-dinnerlab@development:~$ pwd
-/home/dinnerlab
-dinnerlab@development:~$ cd ferrari1
-dinnerlab@development:~/ferrari1$ git pull
-Already up-to-date.
-dinnerlab@development:~/ferrari1$
-```
-
-Any changes that have been made to the `ferrari-[x]` branch will now be live at `ferrari1.dinnerlab.com`
