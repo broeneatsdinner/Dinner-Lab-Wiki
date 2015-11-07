@@ -1,6 +1,6 @@
 Let's get down to brass tacks.
 
-<a name='Installation'/>
+<a name='installation'/>
 ## Installation
 ### GitHub
 
@@ -15,8 +15,8 @@ Directory structure:
 
 ***
 
-<a name='Development-Environment'/>
-## Development Environment
+<a name='application-environment'/>
+## Application Environment
 ### The Big Red Button
 
 Your application environment is set in one file, located in `_/php/globalsConfig.BIG_RED_BUTTON.php`. Depending on the branch that you're working off of, the BIG RED BUTTON should be set automatically. Here are the proper configurations for it:
