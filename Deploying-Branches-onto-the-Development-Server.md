@@ -30,7 +30,7 @@ Note that directories like `dev1` and `dev1logs` are symbolic links to `/home/di
 
 ---
 
-##### Pulling to dev1.dinnerlab.com
+##### Deploying to dev1.dinnerlab.com
 Once you've logged in, and switched to the `dinnerlab` user, you can enter the HTML document root for `dev1.dinnerlab.com` using the symbolic link and then run `git pull` like this:
 ```
 dinnerlab@development:~$ cd
