@@ -1,4 +1,4 @@
-#### Deploying `develop` or `release-[x]` or `ferrari-[x]` onto the development server.
+#### Deploying `develop` or `release` to the development server.
 
 ##### First things first.
 The `dev1.dinnerlab.com` and `release1.dinnerlab.com` domains both reside on the same server.
