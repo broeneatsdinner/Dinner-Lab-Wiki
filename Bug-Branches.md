@@ -27,6 +27,19 @@ When the bug number is present in the pull request's title, JIRA will automatica
 
 ***
 
+##### Merging a Bug Branch
+So when you're ready to merge your feature branch into the develop branch:
+
+1. In the GitHub GUI, switch to `develop` branch
+2. Click on the “Branches” pill,  (Changes | History | Branches)
+3, Click on “Merge View” to see the merge view
+4. Drag your-feature-branch into the left side of the merge view, and `develop` branch into the right side (merging `your-feature-branch` into —> `develop`)
+5. Click “Merge Branches”
+6. Click on the Sync icon to sync your local `develop` with the origin `develop`
+7. Pull `develop` onto dev1 @ dev1.dinnerlab.com
+
+***
+
 ##### Resuming work on a Bug Branch
 
 1. In your GitHub GUI, switch to the `release` branch
@@ -40,15 +53,3 @@ When the bug number is present in the pull request's title, JIRA will automatica
 
 The above being said, in your GitHub GUI, you know the little area that’s a dropdown to switch branches? Immediately to the left of that is an icon that lets you create a new branch off of the current branch. For bug fixes, just make sure you're working off of `release` branch first.
 
-***
-
-##### Merging a Bug Branch
-So when you're ready to merge your feature branch into the develop branch:
-
-1. In the GitHub GUI, switch to `develop` branch
-2. Click on the “Branches” pill,  (Changes | History | Branches)
-3, Click on “Merge View” to see the merge view
-4. Drag your-feature-branch into the left side of the merge view, and `develop` branch into the right side (merging `your-feature-branch` into —> `develop`)
-5. Click “Merge Branches”
-6. Click on the Sync icon to sync your local `develop` with the origin `develop`
-7. Pull `develop` onto dev1 @ dev1.dinnerlab.com
