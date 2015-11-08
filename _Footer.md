@@ -1,1 +1,1 @@
-**Questions or need help?**  [Get in touch](Contact), create a pull request, or [visit our site](https://dinnerlab.com).
+**Questions or need help?**  [Get in touch](Contact Information), create a pull request, or [visit our site](https://dinnerlab.com).
