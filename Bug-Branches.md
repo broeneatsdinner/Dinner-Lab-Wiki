@@ -23,7 +23,7 @@ The above being said, in your GitHub GUI, you know the little area that’s a dr
 
 ##### Behind the Scenes
 
-When the bug number is present in the pull request's title, JIRA will automatically switch the status of the bug to "Under Code Review". Thus, creating a pull request like `UT-380: Description of Bug` will cause bug number `UT-380` on JIRA to be updated. The same happens for two or more bugs listed in the title of the pull request.
+When the bug number is present in the pull request's title, JIRA will automatically switch the status of the bug to **"Under Code Review"**. Thus, creating a pull request like `UT-380: Description of Bug` will cause bug number `UT-380` on JIRA to be updated. The same happens for two or more bugs listed in the title of the pull request.
 
 ***
 
