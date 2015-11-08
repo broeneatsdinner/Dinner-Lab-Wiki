@@ -27,7 +27,7 @@ When the bug number is present in the pull request's title, JIRA will automatica
 
 ***
 
-##### Merging a Bug Branch
+##### Merging a Bug Branch (pull request)
 So when you're ready to merge your feature branch into the develop branch:
 
 1. In the GitHub GUI, switch to `develop` branch
