@@ -5,7 +5,7 @@ The `dev1.dinnerlab.com` and `release1.dinnerlab.com` domains both reside on the
 
 The server has an IP address of `23.92.31.20`.
 
-In order to log in to this server, you can SSH into it with your username (usually your first name), and your password. If you forget your first name (which your mother gave to you), you're out of luck. But, if you forget your password, you can contact Broen in order to reset it.
+In order to log in to this server, you can SSH into it with your username (usually your first name), and your password. If you forget your first name (which your mother gave to you), you're out of luck. But, if you forget your password, you can contact <a href="mailto:bwestberg@dinnerlab.com" target="_self">Broen</a> in order to reset it.
 
 Once you have logged in, the first thing you need to do is "switch" to the `dinnerlab` user. That way, you can pull the various branches onto the server by using the `dinnerlab` user, which has SSH keypair authentication between the server and the GitHub repository itself. This is done by:
 ```
