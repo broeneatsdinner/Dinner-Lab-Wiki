@@ -4,7 +4,7 @@
   * [[Application Environment|getting-started#application-environment]]
 
 **Branching**
-* [[Branch Naming Conventions]]
+* [[Branch Conventions]]
 * [[Feature Branches]]
 * [[Bug Branches]]
 * [[Hotfix Branches]]
