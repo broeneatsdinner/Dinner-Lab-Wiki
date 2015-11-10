@@ -41,7 +41,7 @@ If your pull request was closed (not merged), you should be notified by the Buil
 ***
 
 ## Build Master
-If you're the assigned build master, the following steps should be taken to review the code available in the pull request, and decide a course of action from there.
+If you're the assigned Build Master, the following steps should be taken to review the code available in the pull request, and decide a course of action from there.
 
 ##### Reviewing a Bug Branch _pull request_
 - Ensure it's clean (doesn't merge other developers' unrelated commits). If it's not, ask the developer who created the pull request to update their branch and re-submit the pull request
