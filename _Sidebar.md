@@ -19,6 +19,7 @@
 
 **Command Line Guide**
 * [[Command Line Mastery]]
+* [[Tips and Tricks]]
 
 **Testing**
 * [[Stripe Test Accounts]]
