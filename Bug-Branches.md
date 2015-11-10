@@ -46,7 +46,7 @@ The above being said, in your GitHub GUI, you know the little area that’s a dr
 If you're the assigned build master, the following steps should be taken to review the code available in the pull request, and decide a course of action from there.
 
 ##### Reviewing a Bug Branch _pull request_
-- Ensure it's clean (doesn't merge other developers' commits). If it's not, ask the developer who created the pull request to update their branch and re-submit the pull request.
+- Ensure it's clean (doesn't merge other developers' unrelated commits). If it's not, ask the developer who created the pull request to update their branch and re-submit the pull request.
 - Ensure that unnecessary changes to the codebase aren't being made (e.g. hard-coding variable values when they already exist in the database)
 - Rename pull request title to "[Bug-Number]: Description of pull request"
 
