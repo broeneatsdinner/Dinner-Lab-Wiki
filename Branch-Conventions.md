@@ -3,20 +3,20 @@
 
 **Develop** `develop`
 The base branch from which to start all work on new "features" (i.e. new projects). The `develop` branch is never tested by QA.
-- Resides on: localhost and dev1.dinnerlab.com
+- Resides on: localhost and <a href="dev1.dinnerlab.com" target="_blank">dev1.dinnerlab.com</a>
 - Points to: `dinnerlab_development` database
 - "Big Red Button" points to: "development" environment
 
 
 **Release** `release`
 If bugs are reported on JIRA, the bugfixes that take place should be branched from the `release` branch. When work on a bugfix branch is complete, a pull request should be made to have that bugfix branch merged into `release`. The `release` branch is then tested by QA on release1.dinnerlab.com. The `release` branch is merged into master every Tuesday at 10:00 central time, and the "trickle-down effect" then occurs.
-- Resides on: localhost and release1.dinnerlab.com
+- Resides on: localhost and <a href="release1.dinnerlab.com" target="_blank">release1.dinnerlab.com</a>
 - Points to: `dinnerlab_development` database
 - "Big Red Button" points to: "development" environment
 
 **Master** `master`
 branched off of develop and merged into master every Tuesday at 10:00 central time. If bugfixes that are reported on the `release-` branch take place, they're branched from `release-` and merged back into `release-`. `release-` is then merged into master, and back into develop.
-- Resides on: localhost and dinnerlab.com
+- Resides on: localhost and <a href="dinnerlab.com" target="_blank">dinnerlab.com</a>
 - Points to: `dinnerlab_production` database
 - "Big Red Button" points to: "production" environment
 
