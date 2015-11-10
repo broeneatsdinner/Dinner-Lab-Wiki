@@ -9,8 +9,8 @@ The easiest way to install the Dinner Lab repository is via the GitHub Desktop (
 Directory structure:  
 
 ```
-/path/to/web/dinnerlab
-/path/to/web/logs
+/path/to/web/dinnerlab # the DOCUMENT_ROOT of the repository
+/path/to/web/logs # "one up" from the DOCUMENT_ROOT
 ```
 
 ***
