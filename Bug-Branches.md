@@ -51,12 +51,12 @@ If you're the assigned build master, the following steps should be taken to revi
 ##### Closing a Bug Branch _pull request_
 - Close the pull request using button on github.com's pull request page
 - Notify the developer that the pull request was closed, with reason, and suggestions to re-open the request
-- Comment on pull request so that status in JIRA gets updated to "Failed Code Review" (can this be automated)
+- Comment on pull request so that status in JIRA gets updated to "Failed Code Review" **(can this be automated?)**
 
 ##### Merging a Bug Branch _pull request_
 - Merge the pull request using button on github.com's pull request page
-- Comment on pull request so that the status in JIRA gets updated to "Passed Code Review" (can this be automated)
+- Comment on pull request so that the status in JIRA gets updated to "Passed Code Review" **(can this be automated?)**
 
 ##### Deploying a Bug Branch _pull request_
 - Follow instructions in [[Deploying Branches to the Development Server]]
-- Comment on pull request so that the status in JIRA gets updated to "Release1 QA Ready" (can this be automated)
+- Comment on pull request so that the status in JIRA gets updated to "Release1 QA Ready" **(can this be automated?)**
