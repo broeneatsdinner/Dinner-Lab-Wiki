@@ -12,10 +12,10 @@ If you're up to the task at hand, and are filled with pride at earning gold star
 2. Create a new branch off of `release `, called `bug-[bug number]`
   - For example, if the bug is UT-380, then a branch called `bug-ut-380` works great
 3. Work on that bug
-4. When you feel that work is complete:
-  - Create a pull request to have `bug-[bug number]` merged into `release`
-  - The title of the pull request should be formatted like "UT-380: Description of Bug"
-  - If the pull request fixes two or more bugs at once, the title of the pull request should be formatted like "UT-380 UT-385: Description of the Bug"
+4. When work is complete:
+ 1. Create a pull request to have `bug-[bug number]` merged into `release`
+ 2. The title of the pull request should be formatted like "UT-380: Description of Bug"
+ 3. If the pull request fixes two or more bugs at once, the title of the pull request should be formatted like "UT-380 UT-385: Description of the Bug"
 
 The above being said, in your GitHub GUI, you know the little area that’s a dropdown to switch branches? Immediately to the left of that is an icon that lets you create a new branch off of the current branch. For bug fixes, just make sure you're working off of `release` branch first.
 
@@ -23,20 +23,7 @@ The above being said, in your GitHub GUI, you know the little area that’s a dr
 
 ##### Behind the Scenes
 
-When the bug number is present in the pull request's title, JIRA will automatically switch the status of the bug to **"Under Code Review"**. Thus, creating a pull request like `UT-380: Description of Bug` will cause bug number `UT-380` on JIRA to be updated. The same happens for two or more bugs listed in the title of the pull request.
-
-***
-
-##### Merging a Bug Branch _pull request_
-So when you're ready to merge your feature branch into the develop branch:
-
-1. In the GitHub GUI, switch to `develop` branch
-2. Click on the “Branches” pill,  (Changes | History | Branches)
-3, Click on “Merge View” to see the merge view
-4. Drag your-feature-branch into the left side of the merge view, and `develop` branch into the right side (merging `your-feature-branch` into —> `develop`)
-5. Click “Merge Branches”
-6. Click on the Sync icon to sync your local `develop` with the origin `develop`
-7. Pull `develop` onto dev1 @ dev1.dinnerlab.com
+When the bug number is present in the pull request's title, JIRA will automatically switch the status of the bug to **"Code Review"**. Thus, creating a pull request like `UT-380: Description of Bug` will cause bug number `UT-380` on JIRA to be updated. The same happens for two or more bugs listed in the title of the pull request.
 
 ***
 
@@ -53,3 +40,25 @@ So when you're ready to merge your feature branch into the develop branch:
 
 The above being said, in your GitHub GUI, you know the little area that’s a dropdown to switch branches? Immediately to the left of that is an icon that lets you create a new branch off of the current branch. For bug fixes, just make sure you're working off of `release` branch first.
 
+***
+
+## Build Master
+If you're the assigned build master, the following steps should be taken to review the code available in the pull request, and decide a course of action from there.
+
+##### Reviewing a Bug Branch _pull request_
+- Ensure it's clean (doesn't merge other developers' commits). If it's not, ask the developer who created the pull request to update their branch and re-submit the pull request.
+- Ensure that unnecessary changes to the codebase aren't being made (e.g. hard-coding variable values when they already exist in the database)
+- Rename pull request title to "[Bug-Number]: Description of pull request"
+
+##### Closing a Bug Branch _pull request_
+- Close the pull request using button on github.com's pull request page
+- Notify the developer that pull request was closed, with reason, and suggestions to re-open the request
+- Comment on pull request so that status in JIRA gets updated to "Failed Code Review" (can this be automated)
+
+##### Merging a Bug Branch _pull request_
+- Merge the pull request using button on github.com's pull request page
+- Comment on pull request so that the status in JIRA gets updated to "Passed Code Review" (can this be automated)
+
+##### Deploying a Bug Branch _pull request_
+- Follow instructions in [[Deploying Branches to the Development Server]]
+- Comment on pull request so that the status in JIRA gets updated to "Release1 QA Ready" (can this be automated)
