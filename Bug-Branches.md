@@ -48,7 +48,7 @@ If you're the assigned build master, the following steps should be taken to revi
 ##### Reviewing a Bug Branch _pull request_
 - Ensure it's clean (doesn't merge other developers' unrelated commits). If it's not, ask the developer who created the pull request to update their branch and re-submit the pull request.
 - Ensure that unnecessary changes to the codebase aren't being made (e.g. hard-coding variable values when they already exist in the database)
-- Rename pull request title to "[Bug-Number]: Description of pull request"
+- Rename pull request title to "[Bug-Number]: Description of pull request" if it's formatted incorrectly.
 
 ##### Closing a Bug Branch _pull request_
 - Close the pull request using button on github.com's pull request page
