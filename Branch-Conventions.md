@@ -20,8 +20,7 @@ branched off of develop and merged into master every Tuesday at 10:00 central ti
 - Points to: `dinnerlab_production` database
 - "Big Red Button" points to: "production" environment
 
-
----
+***
 
 #### Temporary Branches
 ##### Prefixes to use when starting new work.
@@ -35,7 +34,7 @@ Used for fixing bugs found on the `release` branch. Branches from `release` and 
 **Hotfix** `hotfix-`
 Used only in extreme circumstances (i.e. the production site is unreachable or a portion of the production site is broken enough to cause data-loss to a widespread number of users) for hotfixes found on the `master` branch. Branches from `master` and pull requests should be made to merge the `hotfix-` branch back into `master`.
 
----
+***
 
 #### The "trickle-down" Effect
 ##### Sounds weird, but really useful!
@@ -50,8 +49,9 @@ Used only in extreme circumstances (i.e. the production site is unreachable or a
 
 The result of the above is that both bugfixes and hotfixes, once working, are applied to all "permanent" branches, and _hopefully_ won't rear their ugly heads again in the future. 
 
---
+***
 
+#### Cheatsheet
 Created from `develop` and merged back into `develop`
 - `feature-`
 
