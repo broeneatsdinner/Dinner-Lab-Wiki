@@ -1,7 +1,7 @@
 ## Command Line Committing
 
 ##### Merging `release` into `master`.
-Where `release` is a branch that is specifically not master, and also not a feature-branch (i.e. merging `develop` into `master`). Note that we first switch to the `master` branch, because all merging, by its nature, sucks the external branch _into_ the current branch.
+Where `release` is a branch that is specifically not master, and also not a feature-branch (i.e. merging `feature-` into `master`). Note that we first switch to the `master` branch, because all merging, by its nature, sucks the external branch _into_ the current branch.
 ```
 git checkout master
 git status
