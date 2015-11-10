@@ -37,6 +37,21 @@ Used only in extreme circumstances (i.e. the production site is unreachable or a
 
 ---
 
+#### The "trickle-down" Effect
+##### Sounds weird, but really useful!
+
+- When bugfixes pass QA testing on the `release` branch:
+ 1. the `release` branch is then merged into `master` and 
+ 2. the `release` branch is also merged into `develop`
+
+- When hotfixes are made on the `master` branch:
+ 1. the `master` branch is then merged into `release` and 
+ 2. the `release` branch is also merged into `develop`
+
+The result of the above is that both bugfixes and hotfixes, once working, are applied to all "permanent" branches, and _hopefully_ won't rear their ugly heads again in the future. 
+
+--
+
 Created from `develop` and merged back into `develop`
 - `feature-`
 
