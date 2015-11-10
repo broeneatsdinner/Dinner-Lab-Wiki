@@ -1,6 +1,6 @@
 ## Working with Hotfix Branches
 
-When a hotfix gets reported, it means something has gone terribly _terribly_ wrong and all developers should stop work before the end of the world comes around. As the phones ring and Slack messages get sent around, __someone__ will be assigned the task of fixing this critical error. If you're that lucky someone, follow these steps.
+When a hotfix gets reported, it means something has gone terribly _terribly_ wrong and all developers should stop work before the end of the world comes around and the internets crush __everyone__. As the phones ring and Slack messages get sent, __someone__ will be assigned the task of fixing this critical error. If you're that lucky someone, follow these steps.
 
 ***
 
@@ -13,7 +13,7 @@ When a hotfix gets reported, it means something has gone terribly _terribly_ wro
 3. Work on that hotfix
 4. When work is complete:
   - Create a pull request to have `hotfix-[bug number]` merged into `master`
-  - The title of the pull request should be formatted like "UT-380: Description of Hotfix"
+  - The title of the pull request should be formatted like "UT-901: Description of Hotfix"
 
 The point of this is to get your hotfix into master and onto the dinnerlab.com server as fast as possible.
 
@@ -23,41 +23,28 @@ To prevent the hotfix from exposing itself in the future, and you're the Build M
 
 ##### Behind the Scenes
 
-When the bug number is present in the pull request's title, JIRA will automatically switch the status of the bug to **"Code Review"**. Thus, creating a pull request like `UT-380: Description of Bug` will cause bug number `UT-380` on JIRA to be updated. The same happens for two or more bugs listed in the title of the pull request.
-
-***
-
-##### Resuming work on a Bug Branch
-
-If your pull request was closed (not merged), you should be notified by the Build Master with a reason why your pull request was closed, and suggestions on how to fix it. When you're ready to resume work on the bug branch, follow these steps:
-
-1. In your GitHub GUI, switch to your existing `bug-[bug number]` branch
-2. Make the necessary modifications
-3. When work is complete:
- 1. Create a pull request to have `bug-[bug number]` merged into `release`
- 2. The title of the pull request should be formatted like "UT-380: Description of Bug"
- 3. If the pull request fixes two or more bugs at once, the title of the pull request should be formatted like "UT-380 UT-385: Description of the Bug"
+When the bug number is present in the pull request's title, JIRA will automatically switch the status of the bug to **"Code Review"**. Thus, creating a pull request like `UT-901: Description of Bug` will cause bug number `UT-901` on JIRA to be updated. The same happens for two or more bugs listed in the title of the pull request.
 
 ***
 
 ## Build Master
 If you're the assigned Build Master, the following steps should be taken to review the code available in the pull request, and decide a course of action from there.
 
-##### Reviewing a Bug Branch _pull request_
+##### Reviewing a Hotfix Branch _pull request_
 - Ensure it's clean (doesn't merge other developers' unrelated commits). If it's not, ask the developer who created the pull request to update their branch and re-submit the pull request
 - Ensure that unnecessary changes to the codebase aren't being made (e.g. hard-coding variable values when they already exist in the database)
 - Rename pull request title to "[Bug-Number]: Description of pull request" if it's formatted incorrectly
 
-##### Closing a Bug Branch _pull request_
+##### Closing a Hotfix Branch _pull request_
 - Close the pull request using button on github.com's pull request page
 - Notify the developer that the pull request was closed, with reason, and suggestions to re-open the request
 - Comment on pull request so that status in JIRA gets updated to "Failed Code Review" **(can this be automated?)**
 
-##### Merging a Bug Branch _pull request_
+##### Merging a Hotfix Branch _pull request_
 - Merge the pull request using button on github.com's pull request page
 - Comment on pull request so that the status in JIRA gets updated to "Passed Code Review" **(can this be automated?)**
 
-##### Deploying a Bug Branch _pull request_
-- Follow instructions in [[Deploying Branches to the Development Server]]
-- Comment on pull request so that the status in JIRA gets updated to "Release1 QA Ready" **(can this be automated?)**
+##### Deploying a Hotfix Branch _pull request_
+- Follow instructions in [[Deploying Branches to the Production Server]]
+- Comment on pull request so that the status in JIRA gets updated to "Deployed to Master" **(can this be automated?)**
 
