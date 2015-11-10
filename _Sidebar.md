@@ -14,6 +14,9 @@
 * [[Deploying Branches to the Development Server]]
 * [[Deploying Branches to the Production Server]]
 
+**Cheatsheets**
+* [[Commenting on Pull Requests]]
+
 **Command Line Guide**
 * [[Command Line Mastery]]
 
