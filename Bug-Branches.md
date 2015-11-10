@@ -8,12 +8,16 @@ If you're up to the task at hand, and are filled with pride at earning gold star
 
 ##### Creating a Bug Branch
 
-1. In your GitHub GUI, switch to your existing `bug-[bug number]` branch
-2. Make the necessary modifications
-3. When work is complete:
- 1. Create a pull request to have `bug-[bug number]` merged into `release`
- 2. The title of the pull request should be formatted like "UT-380: Description of Bug"
- 3. If the pull request fixes two or more bugs at once, the title of the pull request should be formatted like "UT-380 UT-385: Description of the Bug"
+1. In your GitHub GUI, switch to the `release` branch
+2. Create a new branch off of `release `, called `bug-[bug number]`
+  - For example, if the bug is UT-380, then a branch called `bug-ut-380` works great
+3. Work on that bug
+4. When you feel that work is complete:
+  - Create a pull request to have `bug-[bug number]` merged into `release`
+  - The title of the pull request should be formatted like "UT-380: Description of Bug"
+  - If the pull request fixes two or more bugs at once, the title of the pull request should be formatted like "UT-380 UT-385: Description of the Bug"
+
+The above being said, in your GitHub GUI, you know the little area that’s a dropdown to switch branches? Immediately to the left of that is an icon that lets you create a new branch off of the current branch. For bug fixes, just make sure you're working off of `release` branch first.
 
 ***
 
@@ -27,16 +31,12 @@ When the bug number is present in the pull request's title, JIRA will automatica
 
 If your pull request was closed (not merged), you should be notified by the Build Master with a reason why your pull request was closed, and suggestions on how to fix it. When you're ready to resume work on the bug branch, follow these steps:
 
-1. In your GitHub GUI, switch to the `release` branch
-2. Create a new branch off of `release `, called `bug-[bug number]`
-  - For example, if the bug is UT-380, then a branch called `bug-ut-380` works great
-3. Work on that bug
-4. When you feel that work is complete:
-  - Create a pull request to have `bug-[bug number]` merged into `release`
-  - The title of the pull request should be formatted like "UT-380: Description of Bug"
-  - If the pull request fixes two or more bugs at once, the title of the pull request should be formatted like "UT-380 UT-385: Description of the Bug"
-
-The above being said, in your GitHub GUI, you know the little area that’s a dropdown to switch branches? Immediately to the left of that is an icon that lets you create a new branch off of the current branch. For bug fixes, just make sure you're working off of `release` branch first.
+1. In your GitHub GUI, switch to your existing `bug-[bug number]` branch
+2. Make the necessary modifications
+3. When work is complete:
+ 1. Create a pull request to have `bug-[bug number]` merged into `release`
+ 2. The title of the pull request should be formatted like "UT-380: Description of Bug"
+ 3. If the pull request fixes two or more bugs at once, the title of the pull request should be formatted like "UT-380 UT-385: Description of the Bug"
 
 ***
 
