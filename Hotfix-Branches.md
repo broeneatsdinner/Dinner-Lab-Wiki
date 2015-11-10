@@ -47,5 +47,5 @@ If you're the assigned Build Master, the following steps should be taken to revi
 ##### Deploying a Hotfix Branch _pull request_
 - Follow instructions in [[Deploying Branches to the Production Server]]
 - Comment on pull request so that the status in JIRA gets updated to "Deployed to Master" **(can this be automated?)**
-- Start the "trickle-down" effect at step "Merging `master` into `release`" found on [Command Line Mastery](#merging-master-into-release)
+- Start the "trickle-down" effect at step "Merging `master` into `release`" found on [[Command Line Mastery](#merging-master-into-release)]
 
