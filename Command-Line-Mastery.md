@@ -38,7 +38,7 @@ git push origin v2.2
 ***
 
 ##### Merging `master` into `release`.
-Where `release` is a branch that is specifically not master, and also not a feature-branch (i.e. merging `feature-` into `master`). Note that we first switch to the `master` branch, because all merging, by its nature, sucks the external branch _into_ the current branch.
+Once `master` has been updated and tagged with the latest release version. Start the "trickle-down" effect by merging `master` into `release`.
 ```
 git checkout release
 git status
@@ -51,7 +51,7 @@ git commit -m 'merged master --> release'
 ***
 
 ##### Merging `release` into `develop`.
-Where `release` is a branch that is specifically not master, and also not a feature-branch (i.e. merging `feature-` into `master`). Note that we first switch to the `master` branch, because all merging, by its nature, sucks the external branch _into_ the current branch.
+Once `release` has been updated and tagged with the latest release version. Continue the "trickle-down" effect by merging `release` into `develop`.
 ```
 git checkout develop
 git status
