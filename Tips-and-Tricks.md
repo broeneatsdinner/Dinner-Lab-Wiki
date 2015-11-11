@@ -11,7 +11,7 @@ See also [how to undo changes of one file](http://stackoverflow.com/questions/69
 
 ***
 
-##### Renaming branches
+##### Renaming branches.
 
 ```
 git checkout oldbranch				
@@ -23,7 +23,7 @@ git push --set-upstream origin newbranch # push the new branch, set local branch
 
 ***
 
-##### Force-pulling branches into your local environment
+##### Force-pulling branches into your local environment.
 
 Warning, this is destructive. If you have local changes, they will be overwritten by this force pull.
 
@@ -34,7 +34,7 @@ git reset --hard origin/master
 
 ***
 
-##### How to `cherry-pick`
+##### How to `cherry-pick`.
 Even though it has a cool name, it's best practice to not cherry-pick. This is because a proper merge of a feature branch preserves the HEAD history. With that, we can see where in time a feature branch merge took place, inspect it, roll it back, and ask for a pull request in the first place.
 
 But, sometimes the world isn't perfect, and we gotta pick the cherries.
