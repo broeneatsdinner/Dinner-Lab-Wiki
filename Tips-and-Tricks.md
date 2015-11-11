@@ -27,6 +27,13 @@ git push --set-upstream origin newbranch # push the new branch, set local branch
 
 Warning, this is destructive. If you have local changes, they will be overwritten by this force pull.
 
+From develop:
+```
+git fetch --all
+git reset --hard origin/develop
+```
+
+From master:
 ```
 git fetch --all
 git reset --hard origin/master
