@@ -9,7 +9,17 @@ git checkout experiment -- app.js # then copy the version of app.js
 
 See also [how to undo changes of one file](http://stackoverflow.com/questions/692246/undo-working-copy-modifications-of-one-file-in-git)?
 
----
+***
+
+##### Renaming branches
+
+git checkout oldbranch				
+git pull				
+git branch -m oldbranch newbranch # Rename branch locally
+git push origin : oldbranch # Delete the old branch
+git push --set-upstream origin newbranch # push the new branch, set local branch to track the new remote
+
+***
 
 ##### How to `cherry-pick`
 Even though it has a cool name, it's best practice to not cherry-pick. This is because a proper merge of a feature branch preserves the HEAD history. With that, we can see where in time a feature branch merge took place, inspect it, roll it back, and ask for a pull request in the first place.
