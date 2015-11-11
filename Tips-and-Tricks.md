@@ -17,7 +17,7 @@ See also [how to undo changes of one file](http://stackoverflow.com/questions/69
 git checkout oldbranch				
 git pull				
 git branch -m oldbranch newbranch        # Rename branch locally
-git push origin :oldbranch              # Delete the old branch
+git push origin :oldbranch               # Delete the old branch
 git push --set-upstream origin newbranch # push the new branch, set local branch to track the new remote
 ```
 
