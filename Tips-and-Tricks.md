@@ -13,11 +13,13 @@ See also [how to undo changes of one file](http://stackoverflow.com/questions/69
 
 ##### Renaming branches
 
+```
 git checkout oldbranch				
 git pull				
-git branch -m oldbranch newbranch # Rename branch locally
-git push origin : oldbranch # Delete the old branch
+git branch -m oldbranch newbranch        # Rename branch locally
+git push origin :oldbranch              # Delete the old branch
 git push --set-upstream origin newbranch # push the new branch, set local branch to track the new remote
+```
 
 ***
 
@@ -27,6 +29,7 @@ Even though it has a cool name, it's best practice to not cherry-pick. This is b
 But, sometimes the world isn't perfect, and we gotta pick the cherries.
 
 [Ariejan: Cherry Pick](https://ariejan.net/2010/06/10/cherry-picking-specific-commits-from-another-branch/)
+
 [Stack Overflow: Cherry Pick](http://stackoverflow.com/questions/881092/how-to-merge-a-specific-commit-in-git)
 
 ###### With great power, comes great responsibility.
