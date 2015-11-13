@@ -9,6 +9,7 @@ git merge --no-commit release
 git reset HEAD _/php/globalsConfig.BIG_RED_BUTTON.php
 git checkout -- _/php/globalsConfig.BIG_RED_BUTTON.php
 git commit -m 'merged release --> master'
+git push
 ```
 
 ***
@@ -46,6 +47,7 @@ git merge --no-commit master
 git reset HEAD _/php/globalsConfig.BIG_RED_BUTTON.php
 git checkout -- _/php/globalsConfig.BIG_RED_BUTTON.php
 git commit -m 'merged master --> release'
+git push
 ```
 
 ***
@@ -59,6 +61,7 @@ git merge --no-commit release
 git reset HEAD _/php/globalsConfig.BIG_RED_BUTTON.php
 git checkout -- _/php/globalsConfig.BIG_RED_BUTTON.php
 git commit -m 'merged release --> develop'
+git push
 ```
 
 ***
