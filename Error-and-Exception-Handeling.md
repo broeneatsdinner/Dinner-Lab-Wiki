@@ -1,11 +1,17 @@
 #### PHP Error and Exception Basics
-PHP notifies
+PHP provides two mechanisms to report problems that occur during scription execution. 
 
-##### DinnerLabException Class
+The most basic one is the error reporting mechanism.
+See [PHP Error Documentation](http://php.net/manual/en/language.errors.basics.php) for more information.
+
+PHP also provides an Exception model that allows problems to be handled (aka caught) within your script.
+See [PHP Exception Documentation](http://php.net/manual/en/language.exceptions.php) for more information.
+
+#### DinnerLabException Class
 
 
 #### Throwing Exceptions
-Here's an example exception from `DatabaseFactory->getConnection`:
+Here's an example exception from `DatabaseFactory->getConnection()`:
 ```
 $this->database = new mysqli($dbhost, $dbuser, $dbpassword, $dbname);
 if ($this->database->connect_error) {
