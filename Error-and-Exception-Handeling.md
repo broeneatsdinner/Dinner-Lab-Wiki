@@ -15,24 +15,26 @@ Here's a brief description of these methods, with more details in subsequent sec
 
 * `errorHandler()`
 
-This method is called by PHP when non-fatal errors occur.
-Depending on APPLICATION_ENVIRONMENT and error severity, it will log errors, email errors, and/or display nice error page to user.
+    This method is called by PHP when non-fatal errors occur.
+    Depending on APPLICATION_ENVIRONMENT and error severity, it will log errors, email errors, and/or display nice error page to user.
 * `catchException()`
 
-This method is called by PHP when an uncaught exception is thrown.
-Depending on Exception severity, will log exception, mail exception, and/or display nice error page to user.
+    This method is called by PHP when an uncaught exception is thrown.
+    Depending on Exception severity, will log exception, mail exception, and/or display nice error page to user.
 * `setErrorHandler($errorTypes)`
 
-Registers `errorHandler()` and `catchException()` with PHP. $errorType is bitmask of PHP error types to handle with registered handler. By default is set to E_ALL.
-* `shutdownFunction`
+    Registers `errorHandler()` and `catchException()` with PHP. `$errorTypes` is bitmask of PHP error types to handle with registered handler. By default is set to E_ALL.
+* `shutdownFunction()`
 
-This method is called by PHP after a script finishes execution, including when a fatal error occurs. This method will detect fatal errors in production and do a header redirect to a static error html page if they occur. It also logs and emails these errors. 
+    This method is called by PHP after a script finishes execution, including when a fatal error occurs. This method will detect fatal errors in production and do a header redirect to a static error html page if they occur. It also logs and emails these errors. 
 
 * `registerShutdownFunction()`
 
-Registers `shutdownFunction` with PHP.
+    Registers `shutdownFunction()` with PHP.
 
 #### Throwing Exceptions
+To throw an exception, create a new `DinnerLabException` object with the following parameters and throw it.
+
 Here's an example exception from `DatabaseFactory->getConnection()`:
 ```
 $this->database = new mysqli($dbhost, $dbuser, $dbpassword, $dbname);
