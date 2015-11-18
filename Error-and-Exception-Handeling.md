@@ -54,12 +54,16 @@ if ($this->database->connect_error) {
 This throws a new Exception, which if not caught by calling code, will be caught by `DinnerLabException::catchException()`
 
 #### Triggering an Error
+See PHP `trigger_error()` function.
 
 #### Displaying Errors and Exceptions to user
+Placeholder to describe how errors are outputted.
 
 #### Logging of Errors and Exceptions
+Placeholder to describe how errors and exceptions are logged.
 
 #### Notification of Errors and Exceptions
+Placeholder to describe how error and exceptions notify us.
 
 #### Known Error Codes and Behavior
 | Code | Description | Stops Execution |
