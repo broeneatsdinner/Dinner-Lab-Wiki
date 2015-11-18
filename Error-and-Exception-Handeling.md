@@ -8,7 +8,7 @@ PHP also provides an Exception model that allows problems to be handled (aka cau
 See [PHP Exception Documentation](http://php.net/manual/en/language.exceptions.php) for more information.
 
 #### DinnerLabException Class
-The `DinnerLabException` class extends PHP's built-in `ErrorException` class, which can be thrown in the same manner as any PHP Exception (see interface `Throwable`). Also see [Error Exception documentation](http://php.net/manual/en/class.errorexception.php).
+The `DinnerLabException` class extends PHP's built-in `ErrorException` class, which can be thrown in the same manner as any PHP Exception (see interface `Throwable` and [Error Exception documentation](http://php.net/manual/en/class.errorexception.php)).
 
 This class also has static methods that modify how PHP handles errors and uncaught exceptions.
 Here's a brief description of these methods, with more details in subsequent sections.
@@ -33,26 +33,25 @@ Here's a brief description of these methods, with more details in subsequent sec
     Registers `shutdownFunction()` with PHP.
 
 #### Throwing Exceptions
-To throw an exception, create a new `DinnerLabException` object with the following parameters and throw it.
-
+To throw an exception, create a new `Exception` object with the following parameters and throw it.
 ```
-DinnerLabException(
-string $message [optional] The Exception message to throw.
-int $code [optional] The Exception code (these are not currently used in Dinner Lab, but would be used to categorize errors)
-int $severity [optional] The severity level of the exception (these are PHP ERROR
-     * @param string $filename [optional] The filename where the exception is thrown.
-     * @param int $lineno [optional] The line number where the exception is thrown.
-     * @param Exception $previous [optional] The previous exception used for the exception chaining.
+/**
+ * string $message [optional] The message to throw of exception. 
+ * int $code [optional] The Exception code, which is interpreted by DinnerLabException::catchException() 
+ *                      as PHP ERROR severity. So you can throw exceptions that can be ignored.
+ * Exception $previous [optional] The previous exception used for the exception chaining.
+ */
+new Exception($message, $code, $previous);
 ```
 
-Here's an example exception from `DatabaseFactory->getConnection()`:
+Here's an example exception from `DatabaseFactory::getConnection()`:
 ```
 $this->database = new mysqli($dbhost, $dbuser, $dbpassword, $dbname);
 if ($this->database->connect_error) {
-    throw new DinnerLabException('Unable to connect to MySQL server on '.$dbhost.': '.$this->database->connect_error, 1045, E_ERROR, __FILE__, __LINE__);
+    throw new Exception('Unable to connect to MySQL server on '.$dbhost.': '.$this->database->connect_error, 1045);
 }
 ```
-This throws a new DinnerLabException, which if not caught by calling code, will be caught by `DinnerLabException::catchException()`
+This throws a new Exception, which if not caught by calling code, will be caught by `DinnerLabException::catchException()`
 
 #### Triggering an Error
 
@@ -61,3 +60,5 @@ This throws a new DinnerLabException, which if not caught by calling code, will 
 #### Logging of Errors and Exceptions
 
 #### Notification of Errors and Exceptions
+
+#### Known Error Codes and Behavior
