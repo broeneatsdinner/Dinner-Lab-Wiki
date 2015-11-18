@@ -14,13 +14,16 @@ This class also has some static methods to handle errors and uncaught exceptions
 Here's a brief description of these methods, with more details below.
 
 * `errorHandler()`
-* * This method is called by PHP when non-fatal PHP errors occurs.
-* * Depending on APPLICATION_ENVIRONMENT and error severity will log errors, email errors, and/or display nice error page to user.
+
+This method is called by PHP when non-fatal PHP errors occurs.
+Depending on APPLICATION_ENVIRONMENT and error severity will log errors, email errors, and/or display nice error page to user.
 * `catchException()`
-* * This method is called by PHP when an uncaught exception is thrown.
-* * Depending on Exception severity, will log exception, mail exception, and/or display nice error page to user.
+
+This method is called by PHP when an uncaught exception is thrown.
+Depending on Exception severity, will log exception, mail exception, and/or display nice error page to user.
 * `setErrorHandler($errorTypes)`
-* * Registers `errorHandler()` and `catchException()` with PHP. $errorType is bitmask of PHP error types to handle with registered handler. By default is set to E_ALL.
+
+Registers `errorHandler()` and `catchException()` with PHP. $errorType is bitmask of PHP error types to handle with registered handler. By default is set to E_ALL.
 
 #### Throwing Exceptions
 Here's an example exception from `DatabaseFactory->getConnection()`:
