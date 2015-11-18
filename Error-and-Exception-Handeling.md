@@ -62,3 +62,22 @@ This throws a new Exception, which if not caught by calling code, will be caught
 #### Notification of Errors and Exceptions
 
 #### Known Error Codes and Behavior
+| Code | Description | Stops Execution |
+| ------ | ------ | ------ |
+|E_ERROR|PHP Error|Yes|
+|E_WARNING|PHP Warning|No|
+|E_PARSE|PHP Parsing Error|Yes|
+|E_NOTICE|PHP Notice|No|
+|E_CORE_ERROR|PHP Core Error|Yes|
+|E_CORE_WARNING|PHP Core Warning|No|
+|E_COMPILE_ERROR|PHP Compile Error|Yes|
+|E_COMPILE_WARNING|PHP Compile Warning|No|
+|E_USER_ERROR|User Error|Yes|
+|E_USER_WARNING|User Warning|Yes|
+|E_USER_NOTICE|User Notice|No|
+|E_STRICT|PHP Runtime Notice|No|
+|E_RECOVERABLE_ERROR|PHP Recoverable Error|Yes|
+|E_DEPRECATED|PHP Deprecated|No|
+|E_USER_DEPRECATED|User Deprecated|No|
+|E_ALL|All Errors|Yes|
+|1045|DB Access Denied|Yes
