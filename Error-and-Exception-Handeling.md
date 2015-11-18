@@ -8,7 +8,7 @@ PHP also provides an Exception model that allows problems to be handled (aka cau
 See [PHP Exception Documentation](http://php.net/manual/en/language.exceptions.php) for more information.
 
 #### DinnerLabException Class
-The `DinnerLabException` class extends PHP's built-in `Exception` class, which can be thrown in the same manner as any PHP Exception (see interface `Throwable`).
+The `DinnerLabException` class extends PHP's built-in `ErrorException` class, which can be thrown in the same manner as any PHP Exception (see interface `Throwable`). Also see [Error Exception documentation](http://php.net/manual/en/class.errorexception.php).
 
 This class also has static methods that modify how PHP handles errors and uncaught exceptions.
 Here's a brief description of these methods, with more details in subsequent sections.
@@ -34,6 +34,16 @@ Here's a brief description of these methods, with more details in subsequent sec
 
 #### Throwing Exceptions
 To throw an exception, create a new `DinnerLabException` object with the following parameters and throw it.
+
+```
+DinnerLabException(
+string $message [optional] The Exception message to throw.
+int $code [optional] The Exception code (these are not currently used in Dinner Lab, but would be used to categorize errors)
+int $severity [optional] The severity level of the exception (these are PHP ERROR
+     * @param string $filename [optional] The filename where the exception is thrown.
+     * @param int $lineno [optional] The line number where the exception is thrown.
+     * @param Exception $previous [optional] The previous exception used for the exception chaining.
+```
 
 Here's an example exception from `DatabaseFactory->getConnection()`:
 ```
