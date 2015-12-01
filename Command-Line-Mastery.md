@@ -2,12 +2,15 @@
 
 ##### Merging `release` into `master`.
 Where `release` is a branch that is specifically not master, and also not a feature-branch (i.e. merging `feature-` into `master`). Note that we first switch to the `master` branch, because all merging, by its nature, sucks the external branch _into_ the current branch.
+
+Notes on http://stackoverflow.com/questions/5350278/git-undo-auto-merging-on-a-specific-file-only-not-the-whole-branch
+
 ```
 git checkout master
 git status
 git merge --no-commit release
 git reset HEAD _/php/globalsConfig.BIG_RED_BUTTON.php
-git checkout -- _/php/globalsConfig.BIG_RED_BUTTON.php
+git checkout HEAD~1 -- _/php/globalsConfig.BIG_RED_BUTTON.php
 git commit -m 'merged release --> master'
 git push
 ```
