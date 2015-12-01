@@ -9,7 +9,7 @@ Notes on http://stackoverflow.com/questions/5350278/git-undo-auto-merging-on-a-s
 git checkout master
 git status
 git merge --no-commit release
-git reset HEAD _/php/globalsConfig.BIG_RED_BUTTON.php
+git reset HEAD~1 _/php/globalsConfig.BIG_RED_BUTTON.php # Don't know if we need both
 git checkout HEAD~1 -- _/php/globalsConfig.BIG_RED_BUTTON.php
 git commit -m 'merged release --> master'
 git push
