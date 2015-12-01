@@ -16,6 +16,7 @@
 
 **Cheatsheets**
 * [[Commenting on Pull Requests]]
+* [[Editing SCSS Files]]
 
 **Command Line Guide**
 * [[Command Line Mastery]]
