@@ -10,7 +10,8 @@ git checkout master
 git status
 git merge --no-commit release
 # git checkout HEAD~1 -- _/php/globalsConfig.BIG_RED_BUTTON.php
-git checkout --ours _/php/globalsConfig.BIG_RED_BUTTON.php
+# git checkout --ours _/php/globalsConfig.BIG_RED_BUTTON.php
+git checkout origin/master _/php/globalsConfig.BIG_RED_BUTTON.php
 git commit -m 'merged release --> master'
 git push
 ```
