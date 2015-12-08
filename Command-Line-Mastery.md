@@ -49,7 +49,8 @@ git checkout release
 git status
 git merge --no-commit master
 # git checkout HEAD~1 -- _/php/globalsConfig.BIG_RED_BUTTON.php
-git checkout --ours _/php/globalsConfig.BIG_RED_BUTTON.php
+# git checkout --ours _/php/globalsConfig.BIG_RED_BUTTON.php
+git checkout origin/release _/php/globalsConfig.BIG_RED_BUTTON.php
 git commit -m 'merged master --> release'
 git push
 ```
@@ -63,7 +64,8 @@ git checkout develop
 git status
 git merge --no-commit release
 # git checkout HEAD~1 -- _/php/globalsConfig.BIG_RED_BUTTON.php
-git checkout --ours _/php/globalsConfig.BIG_RED_BUTTON.php
+# git checkout --ours _/php/globalsConfig.BIG_RED_BUTTON.php
+git checkout origin/develop _/php/globalsConfig.BIG_RED_BUTTON.php
 git commit -m 'merged release --> develop'
 git push
 ```
