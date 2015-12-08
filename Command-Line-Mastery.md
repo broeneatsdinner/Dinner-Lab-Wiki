@@ -9,8 +9,6 @@ Notes on http://stackoverflow.com/questions/5350278/git-undo-auto-merging-on-a-s
 git checkout master
 git status
 git merge --no-commit release
-# git checkout HEAD~1 -- _/php/globalsConfig.BIG_RED_BUTTON.php
-# git checkout --ours _/php/globalsConfig.BIG_RED_BUTTON.php
 git checkout origin/master _/php/globalsConfig.BIG_RED_BUTTON.php
 git commit -m 'merged release --> master'
 git push
@@ -48,8 +46,6 @@ Once `master` has been updated and tagged with the latest release version. Start
 git checkout release
 git status
 git merge --no-commit master
-# git checkout HEAD~1 -- _/php/globalsConfig.BIG_RED_BUTTON.php
-# git checkout --ours _/php/globalsConfig.BIG_RED_BUTTON.php
 git checkout origin/release _/php/globalsConfig.BIG_RED_BUTTON.php
 git commit -m 'merged master --> release'
 git push
@@ -63,8 +59,6 @@ Once `release` has been updated and tagged with the latest release version. Cont
 git checkout develop
 git status
 git merge --no-commit release
-# git checkout HEAD~1 -- _/php/globalsConfig.BIG_RED_BUTTON.php
-# git checkout --ours _/php/globalsConfig.BIG_RED_BUTTON.php
 git checkout origin/develop _/php/globalsConfig.BIG_RED_BUTTON.php
 git commit -m 'merged release --> develop'
 git push
