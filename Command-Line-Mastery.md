@@ -7,8 +7,8 @@ Notes on http://stackoverflow.com/questions/5350278/git-undo-auto-merging-on-a-s
 
 ```
 git checkout master
-git status
 git merge --no-commit release
+git status # See if there are conflicting files
 git checkout origin/master _/php/globalsConfig.BIG_RED_BUTTON.php
 git commit -m 'merged release --> master'
 git push
@@ -44,8 +44,8 @@ git push origin v2.2
 Once `master` has been updated and tagged with the latest release version. Start the "trickle-down" effect by merging `master` into `release`.
 ```
 git checkout release
-git status
 git merge --no-commit master
+git status # See if there are conflicting files
 git checkout origin/release _/php/globalsConfig.BIG_RED_BUTTON.php
 git commit -m 'merged master --> release'
 git push
@@ -57,8 +57,8 @@ git push
 Once `release` has been updated and tagged with the latest release version. Continue the "trickle-down" effect by merging `release` into `develop`.
 ```
 git checkout develop
-git status
 git merge --no-commit release
+git status # See if there are conflicting files
 git checkout origin/develop _/php/globalsConfig.BIG_RED_BUTTON.php
 git commit -m 'merged release --> develop'
 git push
