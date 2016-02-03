@@ -17,6 +17,7 @@
 **Cheatsheets**
 * [[Commenting on Pull Requests]]
 * [[Editing SCSS Files]]
+* [[Database Backups]]
 
 **Command Line Guide**
 * [[Command Line Mastery]]
