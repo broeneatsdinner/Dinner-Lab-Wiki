@@ -9,9 +9,9 @@ If you want to create a bash alias to automatically associate typing `dinnerlab-
 3. Type `nano .bash_profile`
 4. Append to the end of the file the following:
 ```
-sass --watch scss:css --style compressed
+alias dinnerlab-sass='sass --watch scss:css --style compressed'
 ```
 5. Restart your terminal program.
 
-Some further reading, on what the various flags to for SASS:
+**Some further reading, on what the various flags to for SASS**:
 https://web-design-weekly.com/2014/06/15/different-sass-output-styles/
