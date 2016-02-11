@@ -13,5 +13,8 @@ alias dinnerlab-sass='sass --watch scss:css --style compressed'
 ```
 - Restart your terminal program.
 
-**Some further reading, on what the various flags to for SASS**:
+***
+
+**Some further reading, on what the various flags to for SASS**
+#### Different Sass Output Styles
 https://web-design-weekly.com/2014/06/15/different-sass-output-styles/
