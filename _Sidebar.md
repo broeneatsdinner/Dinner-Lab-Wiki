@@ -22,6 +22,7 @@
 **Command Line Guide**
 * [[Command Line Mastery]]
 * [[Tips and Tricks]]
+* [[Restore Deleted File]]
 
 **Testing**
 * [[Stripe Test Accounts]]
