@@ -30,6 +30,7 @@
 **In the Ether**
 * [[Email Variables]]
 * [[The Ferrari Method]]
+* [[API Frameworks]]
 
 **Developers**
 * [[Contact Information]]
