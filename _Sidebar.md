@@ -31,6 +31,7 @@
 * [[Email Variables]]
 * [[The Ferrari Method]]
 * [[API Frameworks]]
+* [[Sharing Lines on GitHub]]
 
 **Developers**
 * [[Contact Information]]
