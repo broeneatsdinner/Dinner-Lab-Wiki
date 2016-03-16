@@ -24,6 +24,9 @@
 * [[Tips and Tricks]]
 * [[Restore Deleted File]]
 
+**Style Guides**
+* [[Style: Git Commit Messages]]
+
 **Testing**
 * [[Stripe Test Accounts]]
 
