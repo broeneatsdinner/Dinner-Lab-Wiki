@@ -10,7 +10,7 @@ git checkout master
 git merge --no-commit release
 git status # See if there are conflicting files
 git checkout origin/master _/php/globalsConfig.BIG_RED_BUTTON.php
-git commit -m 'Merge branch 'release' into master'
+git commit -m "Merge branch 'release' into master"
 git push
 ```
 
@@ -47,7 +47,7 @@ git checkout release
 git merge --no-commit master
 git status # See if there are conflicting files
 git checkout origin/release _/php/globalsConfig.BIG_RED_BUTTON.php
-git commit -m 'merged master --> release'
+git commit -m "Merge branch 'master' into release"
 git push
 ```
 
@@ -60,7 +60,7 @@ git checkout develop
 git merge --no-commit release
 git status # See if there are conflicting files
 git checkout origin/develop _/php/globalsConfig.BIG_RED_BUTTON.php
-git commit -m 'merged release --> develop'
+git commit -m "Merge branch 'release' into develop"
 git push
 ```
 
