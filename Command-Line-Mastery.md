@@ -10,7 +10,7 @@ git checkout master
 git merge --no-commit release
 git status # See if there are conflicting files
 git checkout origin/master _/php/globalsConfig.BIG_RED_BUTTON.php
-git commit -m 'merged release --> master'
+git commit -m 'Merge branch 'release' into master'
 git push
 ```
 
