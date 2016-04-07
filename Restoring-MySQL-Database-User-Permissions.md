@@ -4,5 +4,7 @@ SELECT user, host, password FROM mysql.user WHERE user = 'username' ORDER BY hos
 ```
 Then, to grant all privileges to that user:
 ```
-GRANT ALL PRIVILEGES ON *.* TO user@'localhost' IDENTIFIED BY PASSWORD 'encrypted_password' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost' 
+IDENTIFIED BY PASSWORD 'encrypted_password' 
+WITH GRANT OPTION;
 ```
